@@ -14,4 +14,4 @@ export const abi = {
       "stateMutability": "nonpayable",
       "type": "constructor"
     }
-export const NFT_CONTRACT_ADDRESS = "0x2956b9c4B3FB8288C3662c6ACdBa3dEb45fD0CeF"
+export const NFT_CONTRACT_ADDRESS = "0x7c7B0Ffb08BFDEd2775EDc74ee383c82601f252b";
