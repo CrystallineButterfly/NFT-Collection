@@ -9,7 +9,7 @@ export default function Home() {
   // walletConnected keep track of whether the user's wallet is connected or not
   const [walletConnected, setWalletConnected] = useState(false);
   // presaleStarted keeps track of whether the presale has started or not
-  const [presaleStarted, setPresaleStarted] = useState(false);
+  const [presaleStarted, setPresaleStarted] = useState(true);
   // presaleEnded keeps track of whether the presale ended
   const [presaleEnded, setPresaleEnded] = useState(false);
   // loading is set to true when we are waiting for a transaction to get mined
