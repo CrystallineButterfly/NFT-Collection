@@ -17,7 +17,7 @@ export default function Home() {
   // checks if the currently connected MetaMask wallet is the owner of the contract
   const [isOwner, setIsOwner] = useState(false);
   // tokenIdsMinted keeps track of the number of tokenIds that have been minted
-  const [tokenIdsMinted, setTokenIdsMinted] = useState("0");
+  const [tokenIdsMinted, setTokenIdsMinted] = useState("1");
   // Create a reference to the Web3 Modal (used for connecting to Metamask) which persists as long as the page is open
   const web3ModalRef = useRef();
 
